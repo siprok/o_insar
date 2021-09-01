@@ -9,9 +9,10 @@
 Создание цифровой модели рельефа по радиолокационным интерферометрическим снимкам с некогерентным накоплением.
 <p> Пример обработки данных </p>
 
-| :Способ отображения/Этап обработки: | :Фаза до развертки: | :Фаза после развертки: |
-| :Полутоновое изображение: | ![2d wrapped phase](https://gitlab.com/siprok/interferometry/examples/2d_wrapped_phase.png) | ![2d unwrapped phase](https://gitlab.com/siprok/interferometry/examples/2d_unwrapped_phase.png) |
-| :Поверхность: | ![3d wrapped phase](https://gitlab.com/siprok/interferometry/examples/3d_wrapped_phase.png) | ![3d unwrapped phase](https://gitlab.com/siprok/interferometry/examples/3d_unwrapped_phase.png) |
+| Способ отображения/Этап обработки | Фаза до развертки | Фаза после развертки |
+| :-------------------------------: | :---------------: | :------------------: |
+| Полутоновое изображение | ![2d wrapped phase](./examples/2d_wrapped_phase.png) | ![2d unwrapped phase](./examples/2d_unwrapped_phase.png) |
+| Поверхность | ![3d wrapped phase](./examples/3d_wrapped_phase.png) | ![3d unwrapped phase](./examples/3d_unwrapped_phase.png) |
 
 ## Используемые сторонние библиотеки <a name="libs"> </a>
 <p>scipy, progress, opencv-python </p>
