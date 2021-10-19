@@ -252,7 +252,7 @@ def min_span_transitions_matrix_cell(source_matrix: np.ndarray) -> dict:
     columns_indexes = np.concatenate((vertical_col_indexes, horizontal_col_indexes)).astype(int)
     del vertical_col_indexes, horizontal_col_indexes
     adj_side = rows_num * columns_num
-    #np.clip(data, float_info.min, None, out=data)
+    
     # инициализируем матрицу связности
     adj_matrix_mst = coo_matrix((data, (rows_indexes, columns_indexes)), shape=(adj_side, adj_side))
     del data, rows_indexes, columns_indexes
